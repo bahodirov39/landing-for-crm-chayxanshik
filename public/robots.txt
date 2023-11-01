@@ -1,0 +1,11 @@
+User-Agent: *
+Allow: /*.jpg
+Allow: /*.gif
+Allow: /*.png
+Allow: /*.js
+Allow: /*.css
+Allow: /*.webp
+Disallow: /home
+Disallow: /locale/ru
+Disallow: /locale/uz
+Sitemap: https://chayxanshik.uz/sitemap

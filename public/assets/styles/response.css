@@ -1,0 +1,681 @@
+@media screen and (max-width: 1200px)
+{
+    /* ======== NAVBAR ======== */
+    .nav_section .nav_bar ul
+    {
+        display: none;
+    }
+    .btn__for_menu
+    {
+        display: flex !important;
+    }
+    /* ======== ENDNAVBAR ======== */
+    
+    /* ======= WELCOME CONTENT ====== */
+    .welcome_section
+    {
+        margin-top: 100px;
+    }
+    .welcome_section .info_txt
+    {
+        width: 100%;
+    }
+    .welcome_section .img_as_banner img
+    {
+        max-width: 500px;
+        min-width: 400px;
+        width: 100%;
+    }
+    /* ======= ENDWELCOME CONTENT ====== */
+    
+    /* ======= ORGANIZATION ====== */
+    .organizator_section
+    {
+        display: flex;
+        gap: 20px;
+    }
+
+    .floor_one
+    {
+        display: flex;
+        gap: 30px;
+    }
+    .floor_two
+    {
+        display: flex;
+        gap: 30px;
+    }
+    .img_or img 
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 250px;
+        border-radius: var(--R_12px);
+        -webkit-border-radius: var(--R_12px);
+        -moz-border-radius: var(--R_12px);
+        -ms-border-radius: var(--R_12px);
+        -o-border-radius: var(--R_12px);
+    }
+    /* ======= ENDORGANIZATION ====== */
+}
+@media screen and (max-width: 900px)
+{
+    /* TITLE CONTENT */
+    .more_title
+    {
+        margin-top: 50px;
+    }
+    /* ENDTITLE CONTENT */
+
+    /* ======= WELCOME CONTENT ====== */
+    .welcome_section
+    {
+        margin-top: 100px;
+        flex-direction: column;
+        flex-direction: column-reverse;
+    }
+    .welcome_section .img_as_banner
+    {
+        width: 100%;
+    }
+    
+    .welcome_section .img_as_banner::before
+    {
+        position: absolute;
+        content: "";
+        left: 0px;
+        top: -50px;
+        height: 100%;
+        width: 100%;
+        background: url(../details/welcome_uzor.png);
+        background-repeat: no-repeat;
+        background-size: 70%;
+    }
+    .welcome_section .img_as_banner img
+    {
+        min-width: 100% !important;
+        max-width: 100% !important;
+        object-fit: cover;
+        border-radius: var(--R_12px);
+        -webkit-border-radius: var(--R_12px);
+        -moz-border-radius: var(--R_12px);
+        -ms-border-radius: var(--R_12px);
+        -o-border-radius: var(--R_12px);
+    }
+    /* ======= ENDWELCOME CONTENT ====== */
+
+    /* ======= TRUST ====== */
+    .trust_us
+    {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-content: start;
+        gap: 30px;
+    }
+    /* ======= ENDTRUST ====== */
+
+    /* ======= REVIEWS ====== */
+    .reviews
+    {
+        padding: 40px 0;
+    }
+    .reviews .title_review 
+    {
+        flex-direction: column;
+    }
+    .reviews .raiting
+    {
+        justify-content: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+    }
+    .carousel 
+    {
+        margin-top: 20px;
+    }
+    .carousel-cell
+    {
+        width: 100%;
+        margin-right: 15px;
+        background: var(--light);
+        padding: 30px 30px 0 30px;
+        text-align: start;
+    }
+    .carousel-cell h1
+    {
+        font-size: 1.1rem;
+        margin-bottom: 10px;
+    }
+    .carousel-cell p
+    {
+        font-size: 13px;
+        margin-bottom: 10px;
+        color: var(--grey);
+    }
+    .carousel-cell .user_profile
+    {
+        display: flex;
+        gap: 10px;
+    }
+    /* ======= ENDREVIEWS ====== */
+
+    /* ======= PRICES ====== */
+    .title_content.pb-5 {
+        padding-bottom: 0rem !important;
+    }
+    .title_content 
+    {
+        margin-top: 40px;
+        padding-bottom: 0px !important;
+        text-align: center;
+    }
+    .card_section
+    {
+       padding-bottom: 0px;
+    }
+    .card_section::after
+    {
+        position: absolute;
+        content: "";
+        height: 200px;
+        width: 200px;
+        background: url(../details/ornament-big.png) no-repeat;
+        background-size: 100%;
+    }
+    .card_section::before
+    {
+        display: none;
+    }
+    .scroller_
+    {
+        overflow: scroll;
+        padding: 20px 0;
+    }
+    .card_section .row
+    {
+        display: flex;
+        flex-wrap: nowrap !important;
+        gap: 20px !important;
+    }
+    .card_section .row .card
+    {
+        width: 300px;
+        box-shadow: 0 0 10px #00000000, 0 0 20px #0000001c;
+        flex-wrap: nowrap !important;
+    }
+    .card_section .row .card .card-body 
+    {
+        padding: 12px 5px 5px 5px !important;
+    }
+    .card_section .row> * {
+        width: 300px !important;
+        margin-top: 0 !important;
+    }
+    
+    .title_number h1:nth-child(1)
+    {
+        opacity: 1;
+    }
+    .title_number h1:nth-child(2)
+    {
+        opacity: 1;
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+    }
+    
+    .card_section .card .card-title
+    {
+        display: flex;
+        gap: 10px;
+        font-size: 16px;
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
+    .card_section .card .type_ li
+    {
+        font-size: 13px;
+    }
+    .card_section .card .type_ li img
+    {
+        margin-bottom: 5px;
+    }
+    .card_section .card .type_ p {
+        margin-top: 0;
+        margin-bottom: 5px !important;
+    }
+    /* ======= ENDPRICES ====== */
+    
+    /* ======= FORM MAIL ====== */
+    .email_box_and_mail .email_box
+    {
+        position: relative !important;
+    }
+    .email_box_and_mail .email_box img
+    {
+        position: relative !important;
+        bottom: 0;
+        width: 250px;
+    }
+    /* ======= ENDFORM MAIL ====== */
+    
+    /* ======= FOOTER ====== */
+    footer .shortly_links {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    footer .social .social_details {
+        display: flex;
+        gap: 10px !important;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    /* ======= ENDFOOTER ====== */
+}
+@media screen and (max-width: 800px)
+{
+    /* ======= FORM MAIL ====== */
+    .email_box_and_mail
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 5px;
+        padding: 40px 20px;
+    }
+    .mail_us {
+        width: 100%;
+        text-align: left;
+    }
+    .email_box_and_mail .email_box
+    {
+        position: relative !important;
+        height: 120px;
+    }
+    .email_box_and_mail .email_box img
+    {
+        position: absolute !important;
+        left: 50%;
+        transform: translateX(-50%);
+        bottom: 10px;
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+}
+    /* ======= ENDFORM MAIL ====== */
+    
+    /* ======= KITCHEN ====== */
+    .kitchen_ .row
+    {
+        display: flex;
+        flex-wrap: nowrap !important;
+        overflow: scroll;
+        gap: 10px;
+    }
+    .kitchen_ .row>* 
+    {
+        width: 220px;
+    }
+    .kitchen_ .row .card
+    {
+        width: 220px;
+    }
+    /* ======= ENDKITCHEN ====== */
+    
+    /* ======= LOCATION MAP ====== */
+    .map_section
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+    .location_info {
+        width: 100%;
+        max-width: 100%;
+        background: var(--light);
+        border: 2px solid var(--gray);
+        padding: 20px;
+    }
+    /* ======= ENDLOCATION MAP ====== */
+}
+
+
+@media screen and (max-width: 700px)
+{
+    /* TITLE CONTENT */
+    .top_space {
+        margin-top: 40px;
+    }
+    /* ENDTITLE CONTENT */
+    
+    /* ======= WELCOME CONTENT ====== */
+    .welcome_section .info_txt
+    {
+        text-align: center;
+    }
+    .welcome_section .info_txt h1
+    {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .welcome_section .info_txt p
+    {
+        font-size: 1rem;
+        margin-bottom: 20px;
+    }
+    .welcome_section .img_as_banner img
+    {
+        width: 100% !important;
+        height: 300px;
+        object-fit: cover;
+        border-radius: var(--R_12px);
+        -webkit-border-radius: var(--R_12px);
+        -moz-border-radius: var(--R_12px);
+        -ms-border-radius: var(--R_12px);
+        -o-border-radius: var(--R_12px);
+    }
+    /* ======= ENDWELCOME CONTENT ====== */
+    
+    /* ======= ORGANIZATION ====== */
+    .organizator_section
+    {
+        display: grid;
+        gap: 20px;
+        /* overflow: scroll; */
+    }
+
+    .floor_one
+    {
+        display: grid;
+        gap: 25px;
+    }
+    .floor_two
+    {
+        display: grid;
+        gap: 25px;
+    }
+    /* ======= ENDORGANIZATION ====== */
+
+
+    .contact_title
+    {margin-top: 25px;}
+}
+
+@media screen and (max-width: 500px)
+{
+    /* .more_title {
+        margin-top: 40px;
+    } */
+    /* ======= WELCOME CONTENT ====== */
+    .welcome_section .info_txt h1
+    {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+    .welcome_section .info_txt p 
+    {
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .welcome_section .img_as_banner img
+    {
+        width: 100% !important;
+        height: 250px;
+        object-fit: cover;
+        border-radius: var(--R_12px);
+        -webkit-border-radius: var(--R_12px);
+        -moz-border-radius: var(--R_12px);
+        -ms-border-radius: var(--R_12px);
+        -o-border-radius: var(--R_12px);
+    }
+    /* ======= ENDWELCOME CONTENT ====== */
+
+    /* ======= TRUST ====== */
+    .trust_us 
+    {
+        display: grid;
+        grid-template-columns: 1fr;
+        justify-content: start;
+        gap: 30px;
+    }
+    /* ======= ENDTRUST ====== */
+    /* ======= PRICES ====== */
+    .scroller_
+    {
+        overflow: scroll;
+        padding: 20px 0;
+    }
+    .card_section .row
+    {
+        display: flex;
+        flex-wrap: nowrap !important;
+        gap: 20px !important;
+    }
+    .card_section .row .card
+    {
+        width: 250px;
+        box-shadow: 0 0 10px #00000000, 0 0 20px #0000001c;
+        flex-wrap: nowrap !important;
+    }
+    .card_section .row> * {
+        width: 250px !important;
+        margin-top: 0 !important;
+    }
+    
+    .title_number h1:nth-child(1)
+    {
+        opacity: 1;
+    }
+    .title_number h1:nth-child(2)
+    {
+        opacity: 1;
+        transform: translateX(0px);
+        -webkit-transform: translateX(0px);
+        -moz-transform: translateX(0px);
+        -ms-transform: translateX(0px);
+        -o-transform: translateX(0px);
+    }
+    
+    .card_section .card .card-title 
+    {
+        display: flex;
+        gap: 10px;
+        font-size: 16px;
+    }
+    .card_section .card .type_ li 
+    {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 12px;
+    }
+    /* ======= ENDPRICES ====== */
+
+    /* ======= FORM MAIL ====== */
+    .email_box_and_mail
+    {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 20px;
+        padding: 40px 20px;
+    }
+    .email_box_and_mail .email_box img
+    {
+        width: 200px;
+    }
+    .mail_us {
+        width: 100%;
+        text-align: left;
+    }
+    .email_box_and_mail .email_box
+    {
+        position: relative !important;
+    }
+    .mail_us h3 {
+        color: var(--light);
+        margin-bottom: 15px;
+        font-size: 1.2rem;
+    }
+    .mail_us form
+    {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .mail_us form input
+    {
+        width: 100%;
+    }
+    .mail_us form button
+    {
+        padding: 9px 15px;
+    }
+    .mail_us p {
+        color: var(--light);
+        font-size: 14px;
+    }
+    /* ======= ENDFORM MAIL ====== */
+
+    /* ======= LOCATION MAP ====== */
+    .map_section iframe
+    {
+        display: none;
+    }
+    .location_info ul li h4 {
+        font-size: 16px;
+        font-weight: bold;
+    }
+    /* ======= ENDLOCATION MAP ====== */
+
+    
+    /* ===================== PAGE ======================= */
+    /* ==================-- SLUGIFY --============ */
+    .slugify img
+    {
+        height: 200px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .slugify .card-body
+    {
+        padding: 0 !important;
+    }
+    .slugify .card-title
+    {
+        font-size: 1.4rem;
+        text-align: start !important;
+    }
+    /* ==================-- ENDSLUGIFY --============ */
+
+
+
+    /* ==================-- ENDSLUGIFY --============ */
+    .finding_section h3
+    {
+        text-align: center;
+    }
+    .finding_section
+    {
+        border: 2px solid #F2F2F2;
+        padding: 12px 10px !important;
+        border-radius: 10px;
+    }
+
+    /* NEWS PAGE */
+    .kitchen_news .row>*
+    {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+    .kitchen_news .card
+    {
+        padding: 5px;
+    }
+
+}
+
+@media screen and (max-width: 350px)
+{
+
+    /* ======== RESIZER ====== */
+    .container__fluid .content
+    {
+        width: 100%;
+        max-width: 1300px;
+    }
+    /* ======== ENDRESIZER ====== */
+
+    /* ====== WELCOME ====== */
+    .welcome_section .img_as_banner img
+    {
+        width: 100% !important;
+        height: 180px;
+        object-fit: cover;
+        border-radius: var(--R_8px);
+        -webkit-border-radius: var(--R_8px);
+        -moz-border-radius: var(--R_8px);
+        -ms-border-radius: var(--R_8px);
+        -o-border-radius: var(--R_8px);
+}
+    /* ====== ENDWELCOME ====== */
+
+    /* ======= ORGANIZATION ====== */
+    .img_or img 
+    {
+        object-fit: cover;
+        width: 100%;
+        height: 160px;
+        border-radius: var(--R_8px);
+        -webkit-border-radius: var(--R_8px);
+        -moz-border-radius: var(--R_8px);
+        -ms-border-radius: var(--R_8px);
+        -o-border-radius: var(--R_8px);
+    }
+    /* ======= ENDORGANIZATION ====== */
+
+    /* ======= PRICES ====== */
+    .card_section .row .card
+    {
+        width: 250px;
+        box-shadow: 0 0 10px #00000000, 0 0 20px #0000001c;
+        flex-wrap: nowrap !important;
+    }
+    /* ======= ENDPRICES ====== */
+
+
+    /* ===================== PAGE ======================= */
+    /* ==================-- SLUGIFY --============ */
+    .slugify img
+    {
+        height: 160px;
+        width: 100%;
+        object-fit: cover;
+    }
+    .slugify .card-body
+    {
+        padding: 0 !important;
+    }
+    .slugify .card-title
+    {
+        font-size: 1.3rem;
+        text-align: start !important;
+    }
+    .slugify .card-text
+    {
+        padding-top: 0 !important;
+        font-size: 14px;
+    }
+    /* ==================-- ENDSLUGIFY --============ */
+}
